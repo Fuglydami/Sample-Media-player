@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-image: url("images/pexels-pixabay-268976.jpg");
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 10px;
+  background-image: linear-gradient(
+    rgba(255, 174, 0, 0.493),
+    rgba(0, 0, 0, 0.192)
+  );
+  color: rgba(46, 40, 40, 0.671);
+  transition: linear 2s;
+}
+
+p {
+  margin-top: 10.99%;
+  letter-spacing: 5px;
+  font-size: larger;
+  transition: linear 2s;
+}
+.effect {
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.397);
+  margin-right: 50px;
+  height: 30px;
+  width: 40px;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.effect:hover {
+  border-color: rgb(235, 170, 8);
+  box-shadow: 0px 0px 6px 6px rgba(169, 169, 169, 0.418);
+  color: rgba(127, 255, 212, 0.719);
+}
+
+.animateIcon {
+  animation: anime infinite 4s;
+}
+@keyframes anime {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+.block{
+  display: none;
+}
+
+.container {
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(218, 165, 32);
+  cursor: pointer;
+  display: flex;
+  /* padding-top: 1.2%; */
+  transition: linear 2s;
+}
